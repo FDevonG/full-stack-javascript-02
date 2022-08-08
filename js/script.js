@@ -58,6 +58,10 @@ function addPagination(list){
 	})
 }
 
+/**
+ * Adds the inpout field for the search functionality
+ * @method
+ */
 function addSearch(){
 	let html = `<label for="search" class="student-search">
 					<span>Search by name</span>
